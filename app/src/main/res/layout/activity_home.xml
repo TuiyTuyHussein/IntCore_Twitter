@@ -128,11 +128,11 @@
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
         android:indeterminate="false"
-        android:maxHeight="2dp"
-        android:minHeight="2dp"
-        android:visibility="visible"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:visibility="visible" />
 
 
 </android.support.design.widget.CoordinatorLayout>

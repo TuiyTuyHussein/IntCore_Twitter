@@ -22,6 +22,7 @@ public abstract class EndlessRecyclerOnScrollListener extends RecyclerView.OnScr
 
     public EndlessRecyclerOnScrollListener(RecyclerView recyclerView) {
         recyclerView.setOnScrollListener(this);
+
         this.layoutManager = recyclerView.getLayoutManager();
     }
 

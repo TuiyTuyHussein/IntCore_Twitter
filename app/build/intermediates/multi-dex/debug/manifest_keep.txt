@@ -1,0 +1,3 @@
+# Referenced at E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14
+-keep class dev.hussein.intcoretwitter.app.IntCoreTwitterApplication { <init>(...); }
+

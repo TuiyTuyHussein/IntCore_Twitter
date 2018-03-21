@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_user">مرحبا %1$s</string>
+    <string name="followers">المتعابعين</string>
+    <string name="no_more_followers">لا مزيد من المتابعين للعرض.</string>
+    <string name="followers_up_tp_date">لا يوجد متابعين جدد.</string>
+    <string name="no_internet_connection">اتصال إنترنت ضعيف</string>
+    <string name="tweets">تغريدات</string>
+
+</resources>

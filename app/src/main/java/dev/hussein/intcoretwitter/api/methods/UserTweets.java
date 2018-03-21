@@ -7,11 +7,14 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * Created by Dev. M. Hussein on 12/20/2017.
+ * Created by Dev. M. Hussein on 3/21/2018.
  */
 
 public interface UserTweets {
 
+    /**
+     * Get user tweets
+     */
 
     @GET("/1.1/statuses/user_timeline.json")
     Call<Tweet[]> apply(

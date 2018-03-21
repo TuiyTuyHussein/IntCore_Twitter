@@ -7,10 +7,16 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 
 /**
  * Created by Dev M Hussein on 3/21/2018.
+ *
+ *
+ * this class get from #https://stackoverflow.com/
+ * Just add
+ * @link stop();
+ * @link play();
+ * to stop request api's because of limit requests
  */
 
 public abstract class EndlessRecyclerOnScrollListener extends RecyclerView.OnScrollListener {
-    public static String TAG = EndlessRecyclerOnScrollListener.class.getSimpleName();
     int firstVisibleItem, visibleItemCount, totalItemCount;
     private int previousTotal = 0; // The total number of items in the dataset after the last load
     private boolean loading = true; // True if we are still waiting for the last set of data to load.

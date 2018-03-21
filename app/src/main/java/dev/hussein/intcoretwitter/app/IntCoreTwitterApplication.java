@@ -22,7 +22,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 
 
 /**
- * Created by Dev M Hussein on 1/16/2018.
+ * Created by Dev M Hussein on 3/21/2018.
  */
 
 public class IntCoreTwitterApplication extends Application {
@@ -33,10 +33,18 @@ public class IntCoreTwitterApplication extends Application {
         super.onCreate();
 
         // init twitter
+        /**
+         * for more information
+         * visit #https://github.com/twitter/twitter-kit-android/wiki/Getting-Started
+         * */
         initTwitter();
 
 
         // init zooming image lib
+        /**
+         * for more information
+         * visit #https://github.com/stfalcon-studio/FrescoImageViewer
+         * */
         initZoomingView();
 
 
@@ -84,6 +92,7 @@ public class IntCoreTwitterApplication extends Application {
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
+        // install multiDex library
         MultiDex.install(this);
     }
 

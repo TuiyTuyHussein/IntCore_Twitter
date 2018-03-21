@@ -7,6 +7,8 @@ import dev.hussein.intcoretwitter.pojo.FollowersResponse;
 
 /**
  * Created by Dev M Hussein on 3/21/2018.
+ *
+ * Using MVC
  */
 
 

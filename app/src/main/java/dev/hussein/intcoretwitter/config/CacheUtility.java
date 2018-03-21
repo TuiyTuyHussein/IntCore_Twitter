@@ -19,6 +19,7 @@ import io.reactivex.schedulers.Schedulers;
  */
 
 public class CacheUtility {
+
     private static final java.lang.String TAG_FOLLOWERS_RESPONSE = "TAG_FOLLOWERS_RESPONSE";
     private final ACache aCache;
 
@@ -30,6 +31,13 @@ public class CacheUtility {
         return new CacheUtility(context);
     }
 
+
+    // cache followers response to use it if user is offline
+
+    /**
+     * use Rx Java for android
+     * visit #http://reactivex.io/documentation/operators/just.html
+     */
     public void cacheFollowersResponse(FollowersResponse followersResponse) {
         Observable.just(saveFollowers(followersResponse))
                 .subscribeOn(Schedulers.newThread())
@@ -41,7 +49,6 @@ public class CacheUtility {
                             Log.i("CACHE_TAG", "save follower error -> " + error.getMessage());
                         });
     }
-
     private boolean saveFollowers(FollowersResponse followersResponse) {
         Gson gson = new GsonBuilder().create();
         String item = gson.toJson(followersResponse);
@@ -59,7 +66,6 @@ public class CacheUtility {
     public Observable<FollowersResponse> getCachedFollowersResponse() {
         return Observable.just(getFollowers());
     }
-
     private FollowersResponse getFollowers() {
         JSONObject jsonObject = aCache.getAsJSONObject(TAG_FOLLOWERS_RESPONSE);
         Gson gson = new GsonBuilder().create();

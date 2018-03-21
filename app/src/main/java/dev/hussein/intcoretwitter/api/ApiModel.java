@@ -24,11 +24,9 @@ public class ApiModel extends TwitterApiClient {
     public UserFollowers getFollowers() {
         return getService(UserFollowers.class);
     }
-
     public UserInfo getUserInfo() {
         return getService(UserInfo.class);
     }
-
     public UserTweets getUserTweets() {
         return getService(UserTweets.class);
     }

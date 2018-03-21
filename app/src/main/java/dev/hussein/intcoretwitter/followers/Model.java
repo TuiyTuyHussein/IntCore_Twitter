@@ -14,6 +14,8 @@ import retrofit2.Call;
 
 /**
  * Created by Dev M Hussein on 3/21/2018.
+ *
+ * Using MVC
  */
 
 class Model implements Presenter.GetFollowers, Presenter.GetUserInfo {

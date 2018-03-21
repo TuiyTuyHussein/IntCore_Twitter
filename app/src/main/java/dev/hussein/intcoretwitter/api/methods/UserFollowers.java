@@ -6,11 +6,14 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * Created by Dev. M. Hussein on 12/20/2017.
+ * Created by Dev. M. Hussein on 3/21/2018.
  */
 
 public interface UserFollowers {
 
+    /**
+     * Get Twitter Followers for user
+     */
 
     @GET("/1.1/followers/list.json")
     Call<FollowersResponse> apply(

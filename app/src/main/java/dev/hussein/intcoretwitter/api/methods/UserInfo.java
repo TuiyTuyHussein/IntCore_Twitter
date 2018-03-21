@@ -7,11 +7,14 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * Created by Dev. M. Hussein on 12/20/2017.
+ * Created by Dev. M. Hussein on 3/21/2018.
  */
 
 public interface UserInfo {
 
+    /**
+     * Get Twitter user information
+     */
 
     @GET("/1.1/users/show.json")
     Call<User> apply(

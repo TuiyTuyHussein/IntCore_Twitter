@@ -5,6 +5,8 @@ import com.twitter.sdk.android.core.models.User;
 
 /**
  * Created by Dev M Hussein on 3/21/2018.
+ *
+ * Using MVC
  */
 
 
@@ -14,7 +16,7 @@ import com.twitter.sdk.android.core.models.User;
 interface View {
 
     /**
-     * uses to send followers data or failure reasons from server to view
+     * uses to send follower tweets or failure reasons from server to view
      */
     interface OnFollowerTweetsResponse {
         void setOnFollowerTweetsResponse(Tweet[] response);

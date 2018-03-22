@@ -2,40 +2,55 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1521664766976"
+    timestamp="1521719066897"
     token="1510715301948796442"
-    verifier="COMPATIBLE" >
+    verifier="METHOD_DELETED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="7137" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="105" />
     <task
         name="verifier"
-        duration="0" />
+        duration="15" />
 
     <artifact
-        location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1521664537459"
+        timestamp="1521717908318"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
         <artifact
             location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -52,29 +67,22 @@
         <artifact
             location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1521718980609"
+        verifier="METHOD_ADDED" >
         <artifact
-            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1521664766976"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1521719066897"
+        verifier="METHOD_DELETED" >
         <artifact
-            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="E:\Android\Developing\Android\TuiyTuy Station\IntCoreTwitter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

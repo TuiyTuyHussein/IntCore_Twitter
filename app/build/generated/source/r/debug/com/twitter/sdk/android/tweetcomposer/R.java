@@ -77,10 +77,10 @@ public final class R {
         public static final int tw__composer_view = 0x7f0a0044;
     }
     public static final class string {
-        public static final int tw__composer_hint = 0x7f0d002e;
-        public static final int tw__login_btn_txt = 0x7f0d0032;
-        public static final int tw__max_tweet_chars = 0x7f0d0033;
-        public static final int tw__post_tweet = 0x7f0d0036;
+        public static final int tw__composer_hint = 0x7f0d002d;
+        public static final int tw__login_btn_txt = 0x7f0d0031;
+        public static final int tw__max_tweet_chars = 0x7f0d0032;
+        public static final int tw__post_tweet = 0x7f0d0035;
     }
     public static final class style {
         public static final int ComposerDark = 0x7f0e00a9;

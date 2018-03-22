@@ -1,31 +1,31 @@
 #Internal package file, do not edit.
-#Wed Mar 21 22:41:10 EET 2018
-2.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\2
-5.set=NATIVE_RESOURCE
-0.path=lib/armeabi/libimagepipeline.so
+#Thu Mar 22 13:50:08 EET 2018
+2.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+5.set=DEX
+0.path=lib/armeabi-v7a/libimagepipeline.so
 2.baseType=DIRECTORY
 3.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 2.set=NATIVE_RESOURCE
-1.path=lib/x86_64/libimagepipeline.so
-4.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\2
+1.path=lib/armeabi/libimagepipeline.so
+4.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 count=7
 5.baseType=DIRECTORY
-2.path=lib/x86/libimagepipeline.so
-5.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\2
+2.path=lib/x86_64/libimagepipeline.so
+5.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 4.set=NATIVE_RESOURCE
 3.path=classes.dex
-6.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+6.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 3.baseType=DIRECTORY
 1.set=NATIVE_RESOURCE
 4.path=lib/arm64-v8a/libimagepipeline.so
-6.set=DEX
+6.set=NATIVE_RESOURCE
 1.baseType=DIRECTORY
 6.baseType=DIRECTORY
-5.path=lib/armeabi-v7a/libimagepipeline.so
-0.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\2
+5.path=classes2.dex
+0.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 0.baseType=DIRECTORY
 3.set=DEX
-6.path=classes2.dex
-1.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\2
+6.path=lib/x86/libimagepipeline.so
+1.base=E\:\\Android\\Developing\\Android\\TuiyTuy Station\\IntCoreTwitter\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 4.baseType=DIRECTORY
 0.set=NATIVE_RESOURCE

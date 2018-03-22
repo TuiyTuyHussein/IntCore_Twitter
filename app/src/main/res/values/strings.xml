@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">IntCore Twitter</string>
-    <string name="com.twitter.sdk.android.CONSUMER_KEY">D7Z2eVjYP4rYXDebzYqnvjsvI</string>
-    <string name="com.twitter.sdk.android.CONSUMER_SECRET">qxOPwZRimhaVueUGSA6piLRWK9v1E0HnmBZbkwxb6yEMakt2m5</string>
+    <string name="twitter_consumer_key">D7Z2eVjYP4rYXDebzYqnvjsvI</string>
+    <string name="twitter_consumer_secret">qxOPwZRimhaVueUGSA6piLRWK9v1E0HnmBZbkwxb6yEMakt2m5</string>
 
     <string name="welcome_user">Welcome %1$s</string>
     <string name="followers">Followers</string>
@@ -9,5 +9,7 @@
     <string name="followers_up_tp_date">Followers is up to date.</string>
     <string name="no_internet_connection">Poor Internet Connection</string>
     <string name="tweets">Tweets</string>
+    <string name="sign_in_cancelled">Login Cancelled</string>
+    <string name="unknown_error">Error while login</string>
 
 </resources>

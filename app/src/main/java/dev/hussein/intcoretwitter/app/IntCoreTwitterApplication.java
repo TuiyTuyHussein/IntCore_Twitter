@@ -60,11 +60,12 @@ public class IntCoreTwitterApplication extends Application {
     }
 
     private void initTwitter() {
+
         //        Twitter.initialize(this);
         TwitterConfig config = new TwitterConfig.Builder(this)
                 .logger(new DefaultLogger(Log.DEBUG))
-                .twitterAuthConfig(new TwitterAuthConfig(getString(R.string.com_twitter_sdk_android_CONSUMER_KEY)
-                        , getString(R.string.com_twitter_sdk_android_CONSUMER_SECRET)))
+                .twitterAuthConfig(new TwitterAuthConfig(getString(R.string.twitter_consumer_key)
+                        , getString(R.string.twitter_consumer_secret)))
                 .debug(true)
                 .build();
         Twitter.initialize(config);
@@ -87,6 +88,7 @@ public class IntCoreTwitterApplication extends Application {
             customApiClient = new TwitterApiClient(customClient);
             TwitterCore.getInstance().addGuestApiClient(customApiClient);
         }
+
     }
 
     @Override

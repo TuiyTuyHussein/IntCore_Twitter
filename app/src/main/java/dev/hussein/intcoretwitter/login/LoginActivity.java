@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -51,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
+
     private void initTwitterLogin() {
         twitterLoginButton.setCallback(new Callback<TwitterSession>() {
             @Override
@@ -62,10 +64,11 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void failure(TwitterException exception) {
-
+                Log.i("TAG_LOGIN", "error -> " + exception.getMessage());
             }
         });
     }
+
 
     private void showWelcomeText(String userName) {
         twitterLoginButton.setVisibility(View.GONE);
@@ -83,6 +86,10 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        twitterLoginButton.onActivityResult(requestCode, resultCode, data);
+
+        if (twitterLoginButton != null)
+            twitterLoginButton.onActivityResult(requestCode, resultCode, data);
     }
+
+
 }

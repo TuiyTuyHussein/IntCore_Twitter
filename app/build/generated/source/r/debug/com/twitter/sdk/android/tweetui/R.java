@@ -386,22 +386,22 @@ public final class R {
         public static final int tw__time_secs = 0x7f0c0002;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f0d002d;
-        public static final int tw__like_tweet = 0x7f0d002f;
-        public static final int tw__liked_tweet = 0x7f0d0030;
-        public static final int tw__loading_tweet = 0x7f0d0031;
-        public static final int tw__login_btn_txt = 0x7f0d0032;
-        public static final int tw__pause = 0x7f0d0034;
-        public static final int tw__play = 0x7f0d0035;
-        public static final int tw__relative_date_format_long = 0x7f0d0037;
-        public static final int tw__relative_date_format_short = 0x7f0d0038;
-        public static final int tw__replay = 0x7f0d0039;
-        public static final int tw__retweeted_by_format = 0x7f0d003a;
-        public static final int tw__share_content_format = 0x7f0d003b;
-        public static final int tw__share_subject_format = 0x7f0d003c;
-        public static final int tw__share_tweet = 0x7f0d003d;
-        public static final int tw__tweet_content_description = 0x7f0d003e;
-        public static final int tw__tweet_media = 0x7f0d003f;
+        public static final int status_bar_notification_info_overflow = 0x7f0d002c;
+        public static final int tw__like_tweet = 0x7f0d002e;
+        public static final int tw__liked_tweet = 0x7f0d002f;
+        public static final int tw__loading_tweet = 0x7f0d0030;
+        public static final int tw__login_btn_txt = 0x7f0d0031;
+        public static final int tw__pause = 0x7f0d0033;
+        public static final int tw__play = 0x7f0d0034;
+        public static final int tw__relative_date_format_long = 0x7f0d0036;
+        public static final int tw__relative_date_format_short = 0x7f0d0037;
+        public static final int tw__replay = 0x7f0d0038;
+        public static final int tw__retweeted_by_format = 0x7f0d0039;
+        public static final int tw__share_content_format = 0x7f0d003a;
+        public static final int tw__share_subject_format = 0x7f0d003b;
+        public static final int tw__share_tweet = 0x7f0d003c;
+        public static final int tw__tweet_content_description = 0x7f0d003d;
+        public static final int tw__tweet_media = 0x7f0d003e;
     }
     public static final class style {
         public static final int MediaTheme = 0x7f0e00ab;
